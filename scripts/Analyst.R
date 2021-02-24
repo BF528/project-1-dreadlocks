@@ -106,8 +106,8 @@ print(GEM5_4$ID[1:10])
 p_value <- vector(length = length(rownames(GEM4_2)))
 statistic <- vector(length = length(rownames(GEM4_2)))
 for(i in 1:length(rownames(GEM4_2))){
-  p_value[i] <- t.test(GEM4_2[i,2:length(colnames(GEM4_2))][which(subtypevector=="C3")], GEM4_2[i,2:length(colnames(GEM4_2))][which(subtypevector!="C3")])$p.value
-  statistic[i] <- t.test(GEM4_2[i,2:length(colnames(GEM4_2))][which(subtypevector=="C3")], GEM4_2[i,2:length(colnames(GEM4_2))][which(subtypevector!="C3")])$statistic
+  p_value[i] <- t.test(GEM4_2[i,2:length(colnames(GEM4_2))][which(as.numeric(cut_hclust)==1)], GEM4_2[i,2:length(colnames(GEM4_2))][which(as.numeric(cut_hclust)==2)])$p.value
+  statistic[i] <- t.test(GEM4_2[i,2:length(colnames(GEM4_2))][which(as.numeric(cut_hclust)==1)], GEM4_2[i,2:length(colnames(GEM4_2))][which(as.numeric(cut_hclust)==2)])$statistic
 }
 p_adjust <- p.adjust(p_value, method="fdr")
 
