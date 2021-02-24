@@ -1,11 +1,22 @@
 # Project Description
 
-A brief description of what this repository is for and what it contains
+Reproducing the results from the comparison of the C3 and C4 tumor subtypes from paper *Marisa et al. Gene Expression Classification of Colon Cancer into Molecular Subtypes: Characterization, Validation, and Prognostic Value. PLoS Medicine, May 2013. PMID: 23700391*. 
+
+This repo contains **result** and **scripts** folder.
 
 # Contributors
 
-List contributor names and github user names, or email addresses if desired
+Yu Zhong: yuzhong@bu.edu
+
+Zhiyu Zhang: zzyu@bu.edu
+
+Jianfeng Ke: jke@bu.edu
+
+Huisiyu Yu: yuhuisiyu yhsy@bu.edu
+
 
 # Repository Contents
 
-Provide a brief description of each script/code file in this repo, what it does, and how to execute it
+**result**: All deliverbles from each section. Some files are ignored due to its large size.
+
+**scripts**: Three scripts for each roles. 
