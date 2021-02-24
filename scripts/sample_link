@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ln -s /project/bf528/project_1/data/GSE39582/CEL_files/* /projectnb/bf528/users/dreadlocks/project_1/samples/
