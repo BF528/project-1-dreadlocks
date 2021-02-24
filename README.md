@@ -6,6 +6,8 @@ This repo contains **result** and **scripts** folder.
 
 # Contributors
 
+Team Leader: Yu Zhong
+
 Yu Zhong-Data Curator: yuzhong1997 yuzhong@bu.edu
 
 Zhiyu Zhang-Programmer: zhiyu-zz zzyu@bu.edu
