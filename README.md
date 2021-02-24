@@ -6,11 +6,11 @@ This repo contains **result** and **scripts** folder.
 
 # Contributors
 
-Yu Zhong-Data Curator: yuzhong@bu.edu
+Yu Zhong-Data Curator: yuzhong1997 yuzhong@bu.edu
 
-Zhiyu Zhang-Programmer: zzyu@bu.edu
+Zhiyu Zhang-Programmer: zhiyu-zz zzyu@bu.edu
 
-Jianfeng Ke-Analyst: jke@bu.edu
+Jianfeng Ke-Analyst: jke20 jke@bu.edu
 
 Huisiyu Yu-Biologist: yuhuisiyu yhsy@bu.edu
 
